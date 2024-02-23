@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import Featured from "./components/featured/Featured";
 import CategoryList from "./components/categoryList/CategoryList";
 import CardList from "./components/cardList/CardList";

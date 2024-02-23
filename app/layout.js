@@ -8,8 +8,8 @@ import ThemeProvider from "./providers/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Blog App",
-	description: "The best blog app!",
+	title: "Mohal Blogs | A way to improve life",
+	description: "Blogs where Life improves!",
 };
 
 export default function RootLayout({ children }) {
