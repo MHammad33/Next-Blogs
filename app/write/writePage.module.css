@@ -1,0 +1,97 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	padding: 50px;
+	font-size: 64px;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	background-color: transparent;
+}
+
+.input::placeholder {
+	color: #b3b3b1;
+}
+
+.editor {
+	display: flex;
+	gap: 20px;
+	height: 700px;
+	position: relative;
+}
+
+.button,
+.addButton {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid var(--textColor);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.addButton {
+	border-color: #1a8917;
+	font-weight: bold;
+}
+
+.add {
+	display: flex;
+	gap: 20px;
+	background-color: var(--bg);
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	top: -50px;
+	left: -50px;
+}
+
+.textArea {
+	width: 100%;
+}
+
+.publish {
+	border: none;
+	padding: 10px 20px;
+	background-color: #1a8917;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 20px;
+	width: max-content;
+	display: flex;
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+	.input {
+		padding: 50px 30px;
+		font-size: 56px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.input {
+		font-size: 48px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.input {
+		font-size: 36px;
+	}
+	.add {
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.input {
+		font-size: 28px;
+	}
+}
