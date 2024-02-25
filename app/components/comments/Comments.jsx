@@ -3,7 +3,7 @@ import styles from "./comments.module.css";
 import Image from "next/image";
 
 const Comments = () => {
-	const status = "authenticated";
+	const status = "unauthenticated";
 	return (
 		<div className={styles.container}>
 			<h1 className={styles.title}>Comments</h1>
